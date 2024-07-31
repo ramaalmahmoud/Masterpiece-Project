@@ -8,7 +8,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif !important;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -20,19 +20,22 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif !important;
-  font-size: 1rem !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: 20px !important;
   font-weight: 400 !important;
   line-height: 1.5 !important;
-  color: black !important;
-  text-align: left !important;
+  
+  text-align: center !important;
   background-color: #fff !important;
+}
+.service {
+  margin-top: 70px;
 }
 
 
 .logo{
   width: 100%;
-  height: 10vh;
+  height: 15vh;
 }
 
 
@@ -49,7 +52,7 @@ p {
 
 a {
   font-weight: bold;
-  color: #AE005F;
+  color: #AE005F ;
   text-decoration: none;
   background-color: transparent;
 }
@@ -69,7 +72,12 @@ a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-
+.display-1 {
+  
+  font-size: 5rem;
+  line-height: 1;
+  color: #ae005f !important;
+}
 
 
 .hero-header,
@@ -856,7 +864,7 @@ a:not([href]):not([class]):hover {
 }
 
 .table .thead-light th {
-  color: #495057;
+
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
@@ -1403,7 +1411,7 @@ textarea.form-control {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
+  padding: 1.375rem 1.75rem;
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 30px;
@@ -4897,7 +4905,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+ 
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5010,7 +5018,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Nunito", sans-serif;
+
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5438,8 +5446,7 @@ button.bg-primary:focus {
 
 .bg-secondary {
   background-color: #EDF1FF  !important;
-  height: 30px;
-  margin-left: 20px;
+
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -5519,7 +5526,7 @@ button.bg-dark:focus {
 .border {
   border: 1px solid #dee2e6 !important;
   background-color: #AE005F;
-  color: white;
+ 
 }
 
 .border-top {
@@ -8474,9 +8481,7 @@ button.bg-dark:focus {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
-}
+
 
 .text-justify {
   text-align: justify !important;
