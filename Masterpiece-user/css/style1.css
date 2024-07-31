@@ -859,8 +859,8 @@ a:not([href]):not([class]):hover {
 
 .table .thead-dark th {
   color: #fff;
-  background-color: #343a40;
-  border-color: #454d55;
+  background-color: #E6E6FA;
+  border-color: #E6E6FA;
 }
 
 .table .thead-light th {
@@ -871,13 +871,13 @@ a:not([href]):not([class]):hover {
 
 .table-dark {
   color: #fff;
-  background-color: #343a40;
+  background-color: #E6E6FA;
 }
 
 .table-dark th,
 .table-dark td,
 .table-dark thead th {
-  border-color: #454d55;
+  border-color: #E6E6FA;
 }
 
 .table-dark.table-bordered {

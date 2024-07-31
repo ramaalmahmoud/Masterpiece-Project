@@ -39,3 +39,5 @@ $('.product-slider-single').slick({
     slidesToScroll: 1
 });
 })(jQuery);
+
+
